@@ -1,0 +1,76 @@
+.btn {
+  border: 1px solid transparent;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-layout {
+  width: 100%;
+  margin-top: 20px;
+}
+
+button[disabled] {
+  background-color: #ececec;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: no-drop;
+}
+
+button[disabled]:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.primary {
+  background-color: rgba(1, 180, 228, 1);
+}
+
+.success {
+  background-color: rgba(25, 135, 84, 1);
+}
+
+.danger {
+  background-color: rgba(220, 53, 69, 1);
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.rd-1 {
+  border-radius: 10px;
+}
+
+.rd-2 {
+  border-radius: 30px;
+}
+
+.text {
+  border: none;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contained {
+  border: 1px solid transparent;
+}
+
+.outline {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.8);
+}

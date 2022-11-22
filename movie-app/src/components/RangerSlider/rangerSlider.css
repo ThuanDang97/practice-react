@@ -1,0 +1,13 @@
+.ranger-slider {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.range {
+  width: 100%;
+}
+
+.range-value {
+  display: block;
+}

@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 1652062677129,
+      "text": "Todo 1",
+      "isCompleted": false,
+      "status": "Active"
+    },
+    {
+      "id": 1652063591578,
+      "text": "Todo 2",
+      "isCompleted": false,
+      "status": "Active"
+    },
+    {
+      "id": 1652063593488,
+      "text": "Todo 3",
+      "isCompleted": false,
+      "status": "Active"
+    }
+  ]
+}
