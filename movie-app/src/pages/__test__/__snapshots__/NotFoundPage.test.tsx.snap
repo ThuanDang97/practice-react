@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Not Found Page Not Found Page matches DOM Snapshot 1`] = `
+<BrowserRouter>
+  <NotFoundPage />
+  ;
+</BrowserRouter>
+`;

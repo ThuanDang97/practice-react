@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { convertRating } from '../../../utils';
 import './contentCard.css';
 
-type TProps = {
+export type TProps = {
   id: number;
   title: string;
   voteAverage: number;
@@ -26,7 +26,9 @@ const ContentCard = (props: TProps): JSX.Element => {
             data-bar-color="#21d07a"
           >
             <div className="percent">
-              <span className="icon">{point}</span>
+              <span className="icon" data-testid="score">
+                {point}
+              </span>
             </div>
           </div>
         </div>
@@ -36,7 +38,7 @@ const ContentCard = (props: TProps): JSX.Element => {
           {title}
         </Link>
       </h2>
-      <p>{releaseDate}</p>
+      <p data-testid="release-date">{releaseDate}</p>
     </div>
   );
 };

@@ -18,6 +18,8 @@ Build a movie web application
 
 ## Target
 
+- **Understand how to use React hooks**
+- **Getting familiar Hook: useState, useCallback, memo, React router, swr**
 - **Apply Storybook and Unit-testing with Jest**
 
 ## Requirements
@@ -43,6 +45,7 @@ Build a movie web application
 - **Prettier**
 - **Storybook**
 - **Jest**
+- **React Test Library**
 
 ## Main Features
 
@@ -87,10 +90,16 @@ Build a movie web application
   pnpm run dev
   ```
 
-- Start Storybook: <br>
+- Run test (open new terminal):
 
   ```bash
-  pnpm run storybook
+  pnpm test
+  ```
+
+- Run check coverage (open new terminal):
+
+  ```bash
+  pnpm test -- --coverage
   ```
 
 - Open on web: <http://localhost:3000> and <http://localhost:6006/>

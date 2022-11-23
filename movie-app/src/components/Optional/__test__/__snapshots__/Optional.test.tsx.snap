@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Optional component Component Optional matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="option"
+    data-testid="optional"
+  >
+    <span />
+  </div>
+</div>
+`;

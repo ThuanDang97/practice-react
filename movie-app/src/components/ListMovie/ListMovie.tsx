@@ -10,7 +10,7 @@ import { IChip } from '../../interfaces/Chip/IChip';
 import RangerSlider from '../RangerSlider/RangerSlider';
 import { DefaultRangerValue } from '../../constants/Enum';
 
-type TProps = {
+export type TProps = {
   pageMovie: IMovieCard[];
   title: string;
   chips: IChip[];
@@ -41,11 +41,11 @@ const ListMovie = (props: TProps): JSX.Element => {
 
   return (
     <>
-      <div className="media">
+      <div className="media" data-testid="home-page">
         <div className="column_wrapper">
           <div className="content_wrapper">
             <div className="title">
-              <h2>{title}</h2>
+              <h2 data-testid="header-page">{title}</h2>
             </div>
             <div className="content">
               <div>
@@ -53,7 +53,7 @@ const ListMovie = (props: TProps): JSX.Element => {
                   <Select onHandleSort={onHandleSort!} />
                 </Menu>
                 <Menu title="Filter">
-                  <div className="list-chip">
+                  <div className="list-chip" data-testid="list-chip">
                     <h3>Genres</h3>
                     {chips?.map((chip) => (
                       <Chip
@@ -97,7 +97,9 @@ const ListMovie = (props: TProps): JSX.Element => {
                       />
                     ))
                   ) : (
-                    <span>No items were found that match your query.</span>
+                    <span data-testid="message-error">
+                      No items were found that match your query.
+                    </span>
                   )}
                 </section>
                 <div className="btn-layout">

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Menu component Component Menu matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="panel-card"
+  >
+    <div
+      class="name"
+    >
+      <h2>
+        Menu
+      </h2>
+    </div>
+    <div
+      class="filter"
+    >
+      <span
+        class="widget"
+        data-testid="sub-menu"
+      >
+         Sub Menu 
+      </span>
+    </div>
+  </div>
+</div>
+`;

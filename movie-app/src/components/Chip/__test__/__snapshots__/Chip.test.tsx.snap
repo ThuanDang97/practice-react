@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Chip component Component Chip matches DOM Snapshot 1`] = `
+<div>
+  <button
+    class="chip-element"
+    value="1"
+  >
+    Fantastic
+  </button>
+</div>
+`;

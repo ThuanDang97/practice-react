@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Popup component Component Popup matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="group"
+    data-testid="popup"
+  >
+    <i
+      class="black"
+    >
+      <img
+        alt=""
+        class="black"
+        src=""
+      />
+    </i>
+    Element
+  </div>
+</div>
+`;

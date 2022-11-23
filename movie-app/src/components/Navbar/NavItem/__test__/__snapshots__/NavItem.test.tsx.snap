@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Nav Item component Component Nav Item matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="dropdown-content"
+  >
+    <a
+      class="nav-link"
+      data-testid="navitem"
+      href="/"
+    >
+      <span>
+        Popular
+      </span>
+    </a>
+  </div>
+</div>
+`;

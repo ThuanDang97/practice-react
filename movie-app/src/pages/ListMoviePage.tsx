@@ -15,7 +15,7 @@ import { IChip } from '../interfaces/Chip/IChip';
 import { IMovieCard } from '../interfaces/Movie/IMovieCard';
 import { updateFavorite, getTitlePage, getNewMovie, getNewChip } from '../utils';
 
-const ListMovieType = (movieType: MovieType) => {
+export const ListMovieType = (movieType: MovieType) => {
   switch (movieType) {
     case MovieType.NowPlaying:
       return MOVIE_NOW_PLAYING_URL;
@@ -48,16 +48,16 @@ const ListMoviePage = (): JSX.Element => {
   useEffect(() => {
     if (movieOriginal) {
       const newMovie = transformedData(
-        movieOriginal[0].results,
-        movieOriginal[1].results,
+        movieOriginal[0]?.results,
+        movieOriginal[1]?.results,
       );
 
       setMovies(newMovie);
-      setTotalPage(movieOriginal[0].total_pages);
+      setTotalPage(movieOriginal[0]?.total_pages);
     }
 
     if (originalChips) {
-      const newChips: IChip[] = originalChips.genres.map((chip: any) => {
+      const newChips: IChip[] = originalChips.genres?.map((chip: any) => {
         return { ...chip, isChip: false };
       });
 
@@ -76,7 +76,7 @@ const ListMoviePage = (): JSX.Element => {
             : PrevMovie;
         });
 
-        if (status === 'success' && newMovies) {
+        if (status === true && newMovies) {
           setMovies(
             newMovies.filter((movie) => {
               return movie.is_favorite === true;

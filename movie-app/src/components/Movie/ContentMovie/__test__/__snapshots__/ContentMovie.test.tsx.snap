@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button component Component Info Movie matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="content"
+  >
+    <div
+      class="inner"
+    >
+      <div
+        class="poster_movie"
+      >
+        <img
+          alt=""
+          class="image_movie"
+          data-testid="poster"
+          src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2url"
+        />
+      </div>
+      <section
+        class="info_movie"
+      >
+        <div
+          class="info_wrapper"
+        >
+          <div
+            class="tittle"
+          >
+            <h2>
+              <a
+                data-testid="title"
+                href="#"
+              >
+                End Game
+              </a>
+              <span
+                class="tag release_date"
+                data-testid="release"
+              >
+                (
+                2
+                0
+                2
+                0
+                )
+              </span>
+            </h2>
+            <div
+              class="facts"
+            >
+              <span
+                class="genres"
+                data-testid="genres"
+              >
+                <a
+                  href="#"
+                >
+                  Action
+                </a>
+              </span>
+              <span
+                class="runtime"
+                data-testid="runtime"
+              >
+                2h 0m
+              </span>
+            </div>
+          </div>
+          <ul
+            class="options"
+          >
+            <li
+              class="chart"
+            >
+              <div
+                class="details"
+              >
+                <div
+                  class="outer_ring"
+                >
+                  <div
+                    class="user_score_chart"
+                  >
+                    <div
+                      class="percent"
+                    >
+                      <span
+                        class="icon icon-r73"
+                        data-testid="score"
+                      >
+                        75
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text"
+              >
+                User
+                <br />
+                Score
+              </div>
+            </li>
+            <div
+              class="tooltip"
+              data-testid="tooltip"
+            >
+              <div>
+                <li
+                  class="option-single"
+                >
+                  <i>
+                    <img
+                      alt="Add to list"
+                      src="https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-159-thumbnails-list-white-c260ea972eebf812289fd3c41d0d2c1dff33ecbcd62be13fba8eeaf9de173789.svg"
+                    />
+                  </i>
+                </li>
+              </div>
+              <span
+                class="tooltip-text"
+              >
+                Add to list
+              </span>
+            </div>
+            <div
+              class="tooltip"
+              data-testid="tooltip"
+            >
+              <div>
+                <li
+                  class="option-single"
+                >
+                  <i>
+                    <img
+                      alt="Favorite"
+                      src="https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-13-heart-white-28d2cc2d6418c5047efcfd2438bfc5d109192671263c270993c05f130cc4584e.svg"
+                    />
+                  </i>
+                </li>
+              </div>
+              <span
+                class="tooltip-text"
+              >
+                Remove from your favorite list
+              </span>
+            </div>
+            <div
+              class="tooltip"
+              data-testid="tooltip"
+            >
+              <div>
+                <li
+                  class="option-single"
+                >
+                  <i>
+                    <img
+                      alt="Watchlist"
+                      src="https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-73-bookmark-white-432e98d550b7e4c80b06272c49475b0db85a60f6fae450420713004b3c9d3ffd.svg"
+                    />
+                  </i>
+                </li>
+              </div>
+              <span
+                class="tooltip-text"
+              >
+                Add to your watchlist
+              </span>
+            </div>
+            <div
+              class="tooltip"
+              data-testid="tooltip"
+            >
+              <div>
+                <li
+                  class="option-single"
+                >
+                  <i>
+                    <img
+                      alt="Your rating"
+                      src="https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-49-star-white-5c85220678b312aea9599d5f12ad858a9e7df226de51ef8b6b699023ffeda5fa.svg"
+                    />
+                  </i>
+                </li>
+              </div>
+              <span
+                class="tooltip-text"
+              >
+                Rate It!
+              </span>
+            </div>
+          </ul>
+          <div
+            class="overview"
+          >
+            <h3>
+              Overview
+            </h3>
+            <p
+              class="desc"
+              data-testid="desc"
+            >
+              Movie over view
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Button component Component Info Movie should no show poster 1`] = `
+<Memo(ContentMovie)
+  genres={
+    Array [
+      Object {
+        "id": 1,
+        "name": "Action",
+      },
+    ]
+  }
+  homepage=""
+  overview="Movie over view"
+  posterPath=""
+  releaseDate="2020-10-10"
+  runtime={120}
+  scoreVoteAverage={7.5}
+  title="End Game"
+/>
+`;

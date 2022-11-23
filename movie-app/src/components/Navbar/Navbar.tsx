@@ -11,7 +11,7 @@ const Navbar = (props: TProps): JSX.Element => {
   const { navItem } = props;
   return (
     <>
-      <nav>
+      <nav data-testid="navbar">
         <ul className="dropdown-menu">
           {navItem.map((item) => (
             <li key={item.id} className="dropdown-item">

@@ -4,7 +4,7 @@ import Optional from '../../Optional/Optional';
 import './imageCard.css';
 import noImage from '../../../assets/no-image.svg';
 
-type TProps = {
+export type TProps = {
   id: number;
   originalTitle: string;
   posterPath: string;

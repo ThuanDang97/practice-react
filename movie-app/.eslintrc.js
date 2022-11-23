@@ -28,8 +28,15 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:testing-library/react',
   ],
-  plugins: ['prettier', 'react-hooks'],
+  plugins: ['prettier', 'react-hooks', 'jest-dom'],
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      extends: ['plugin:testing-library/react'],
+    },
+  ],
   rules: {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'react/react-in-jsx-scope': 'off',
@@ -40,5 +47,13 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'no-unused-vars': 'off',
     'no-undef': 'off',
+    'testing-library/await-async-query': 'error',
+    'testing-library/no-await-sync-query': 'error',
+    'testing-library/no-debugging-utils': 'warn',
+    'testing-library/no-dom-import': 'off',
+    'jest-dom/prefer-checked': 'error',
+    'jest-dom/prefer-enabled-disabled': 'error',
+    'jest-dom/prefer-required': 'error',
+    'jest-dom/prefer-to-have-attribute': 'error',
   },
 };

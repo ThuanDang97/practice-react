@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Select component Component Select matches DOM Snapshot 1`] = `
+<div>
+  <span
+    class="dropdown"
+    data-testid="select"
+  >
+    <span
+      class="input"
+      data-testid="titleOption"
+    >
+      Popularity Descending
+    </span>
+    <span
+      class="select"
+    >
+      <span
+        class="icon-select"
+      />
+    </span>
+  </span>
+</div>
+`;

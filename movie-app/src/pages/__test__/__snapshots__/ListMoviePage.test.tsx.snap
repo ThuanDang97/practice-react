@@ -1,0 +1,852 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test List Movie Page List Movie Page matches DOM Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="media"
+        data-testid="home-page"
+      >
+        <div
+          class="column_wrapper"
+        >
+          <div
+            class="content_wrapper"
+          >
+            <div
+              class="title"
+            >
+              <h2
+                data-testid="header-page"
+              >
+                Popular Movies
+              </h2>
+            </div>
+            <div
+              class="content"
+            >
+              <div>
+                <div
+                  class="panel-card"
+                >
+                  <div
+                    class="name"
+                  >
+                    <h2>
+                      Sort
+                    </h2>
+                  </div>
+                  <div
+                    class="filter"
+                  >
+                    <span
+                      class="widget"
+                      data-testid="sub-menu"
+                    >
+                      <span
+                        class="dropdown"
+                        data-testid="select"
+                      >
+                        <span
+                          class="input"
+                          data-testid="titleOption"
+                        >
+                          Popularity Descending
+                        </span>
+                        <span
+                          class="select"
+                        >
+                          <span
+                            class="icon-select"
+                          />
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="panel-card"
+                >
+                  <div
+                    class="name"
+                  >
+                    <h2>
+                      Filter
+                    </h2>
+                  </div>
+                  <div
+                    class="filter"
+                  >
+                    <span
+                      class="widget"
+                      data-testid="sub-menu"
+                    >
+                      <div
+                        class="list-chip"
+                        data-testid="list-chip"
+                      >
+                        <h3>
+                          Genres
+                        </h3>
+                        <button
+                          class="chip-element"
+                          value="28"
+                        >
+                          Action
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="12"
+                        >
+                          Adventure
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="16"
+                        >
+                          Animation
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="35"
+                        >
+                          Comedy
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="80"
+                        >
+                          Crime
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="99"
+                        >
+                          Documentary
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="18"
+                        >
+                          Drama
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="10751"
+                        >
+                          Family
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="14"
+                        >
+                          Fantasy
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="36"
+                        >
+                          History
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="27"
+                        >
+                          Horror
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="10402"
+                        >
+                          Music
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="9648"
+                        >
+                          Mystery
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="10749"
+                        >
+                          Romance
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="878"
+                        >
+                          Science Fiction
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="10770"
+                        >
+                          TV Movie
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="53"
+                        >
+                          Thriller
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="10752"
+                        >
+                          War
+                        </button>
+                        <button
+                          class="chip-element"
+                          value="37"
+                        >
+                          Western
+                        </button>
+                      </div>
+                      <div
+                        class="ranger-slider"
+                      >
+                        <h3>
+                          User Score
+                        </h3>
+                        <input
+                          class="range"
+                          max="10"
+                          min="0"
+                          step="1"
+                          type="range"
+                          value="10"
+                        />
+                        <div
+                          class="range-value"
+                        >
+                          10
+                        </div>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="btn-layout"
+                >
+                  <button
+                    class="btn primary contained rd-2 w-100 "
+                    type="button"
+                  >
+                    Search
+                  </button>
+                </div>
+              </div>
+              <div
+                class="white_column"
+              >
+                <section
+                  class="page_wrapper"
+                >
+                  <div
+                    class="card"
+                  >
+                    <div
+                      class="image"
+                    >
+                      <div
+                        class="wrapper"
+                      >
+                        <a
+                          href="/movie/979163"
+                        >
+                          <img
+                            alt="Beyond Infinity: Buzz and the Journey to Lightyear"
+                            class="poster"
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face//3dhQksZrIeRYP8jbB0J1SLW6HVW.jpg"
+                          />
+                        </a>
+                        <div
+                          class="option"
+                          data-testid="optional"
+                        >
+                          <span />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="consensus tight"
+                      >
+                        <div
+                          class="outer_ring"
+                        >
+                          <div
+                            class="user_score_chart"
+                            data-bar-color="#21d07a"
+                            data-percent="78.0"
+                            data-track-color="#204529"
+                          >
+                            <div
+                              class="percent"
+                            >
+                              <span
+                                class="icon"
+                                data-testid="score"
+                              >
+                                74
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>
+                        <a
+                          href="/movie/979163"
+                          title="Beyond Infinity: Buzz and the Journey to Lightyear"
+                        >
+                          Beyond Infinity: Buzz and the Journey to Lightyear
+                        </a>
+                      </h2>
+                      <p
+                        data-testid="release-date"
+                      >
+                        2022-06-10
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="card"
+                  >
+                    <div
+                      class="image"
+                    >
+                      <div
+                        class="wrapper"
+                      >
+                        <a
+                          href="/movie/453395"
+                        >
+                          <img
+                            alt="Doctor Strange in the Multiverse of Madness"
+                            class="poster"
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face//3dhQksZrIeRYP8jbB0J1SLW6HVW.jpg"
+                          />
+                        </a>
+                        <div
+                          class="option"
+                          data-testid="optional"
+                        >
+                          <span />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="consensus tight"
+                      >
+                        <div
+                          class="outer_ring"
+                        >
+                          <div
+                            class="user_score_chart"
+                            data-bar-color="#21d07a"
+                            data-percent="78.0"
+                            data-track-color="#204529"
+                          >
+                            <div
+                              class="percent"
+                            >
+                              <span
+                                class="icon"
+                                data-testid="score"
+                              >
+                                74
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>
+                        <a
+                          href="/movie/453395"
+                          title="Doctor Strange in the Multiverse of Madness"
+                        >
+                          Doctor Strange in the Multiverse of Madness
+                        </a>
+                      </h2>
+                      <p
+                        data-testid="release-date"
+                      >
+                        2022-06-10
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                <div
+                  class="btn-layout"
+                >
+                  <button
+                    class="btn primary contained rd-1 w-100 "
+                    type="button"
+                  >
+                    Load More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="media"
+      data-testid="home-page"
+    >
+      <div
+        class="column_wrapper"
+      >
+        <div
+          class="content_wrapper"
+        >
+          <div
+            class="title"
+          >
+            <h2
+              data-testid="header-page"
+            >
+              Popular Movies
+            </h2>
+          </div>
+          <div
+            class="content"
+          >
+            <div>
+              <div
+                class="panel-card"
+              >
+                <div
+                  class="name"
+                >
+                  <h2>
+                    Sort
+                  </h2>
+                </div>
+                <div
+                  class="filter"
+                >
+                  <span
+                    class="widget"
+                    data-testid="sub-menu"
+                  >
+                    <span
+                      class="dropdown"
+                      data-testid="select"
+                    >
+                      <span
+                        class="input"
+                        data-testid="titleOption"
+                      >
+                        Popularity Descending
+                      </span>
+                      <span
+                        class="select"
+                      >
+                        <span
+                          class="icon-select"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="panel-card"
+              >
+                <div
+                  class="name"
+                >
+                  <h2>
+                    Filter
+                  </h2>
+                </div>
+                <div
+                  class="filter"
+                >
+                  <span
+                    class="widget"
+                    data-testid="sub-menu"
+                  >
+                    <div
+                      class="list-chip"
+                      data-testid="list-chip"
+                    >
+                      <h3>
+                        Genres
+                      </h3>
+                      <button
+                        class="chip-element"
+                        value="28"
+                      >
+                        Action
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="12"
+                      >
+                        Adventure
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="16"
+                      >
+                        Animation
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="35"
+                      >
+                        Comedy
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="80"
+                      >
+                        Crime
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="99"
+                      >
+                        Documentary
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="18"
+                      >
+                        Drama
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="10751"
+                      >
+                        Family
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="14"
+                      >
+                        Fantasy
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="36"
+                      >
+                        History
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="27"
+                      >
+                        Horror
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="10402"
+                      >
+                        Music
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="9648"
+                      >
+                        Mystery
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="10749"
+                      >
+                        Romance
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="878"
+                      >
+                        Science Fiction
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="10770"
+                      >
+                        TV Movie
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="53"
+                      >
+                        Thriller
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="10752"
+                      >
+                        War
+                      </button>
+                      <button
+                        class="chip-element"
+                        value="37"
+                      >
+                        Western
+                      </button>
+                    </div>
+                    <div
+                      class="ranger-slider"
+                    >
+                      <h3>
+                        User Score
+                      </h3>
+                      <input
+                        class="range"
+                        max="10"
+                        min="0"
+                        step="1"
+                        type="range"
+                        value="10"
+                      />
+                      <div
+                        class="range-value"
+                      >
+                        10
+                      </div>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="btn-layout"
+              >
+                <button
+                  class="btn primary contained rd-2 w-100 "
+                  type="button"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+            <div
+              class="white_column"
+            >
+              <section
+                class="page_wrapper"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="image"
+                  >
+                    <div
+                      class="wrapper"
+                    >
+                      <a
+                        href="/movie/979163"
+                      >
+                        <img
+                          alt="Beyond Infinity: Buzz and the Journey to Lightyear"
+                          class="poster"
+                          src="https://www.themoviedb.org/t/p/w220_and_h330_face//3dhQksZrIeRYP8jbB0J1SLW6HVW.jpg"
+                        />
+                      </a>
+                      <div
+                        class="option"
+                        data-testid="optional"
+                      >
+                        <span />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="consensus tight"
+                    >
+                      <div
+                        class="outer_ring"
+                      >
+                        <div
+                          class="user_score_chart"
+                          data-bar-color="#21d07a"
+                          data-percent="78.0"
+                          data-track-color="#204529"
+                        >
+                          <div
+                            class="percent"
+                          >
+                            <span
+                              class="icon"
+                              data-testid="score"
+                            >
+                              74
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h2>
+                      <a
+                        href="/movie/979163"
+                        title="Beyond Infinity: Buzz and the Journey to Lightyear"
+                      >
+                        Beyond Infinity: Buzz and the Journey to Lightyear
+                      </a>
+                    </h2>
+                    <p
+                      data-testid="release-date"
+                    >
+                      2022-06-10
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                >
+                  <div
+                    class="image"
+                  >
+                    <div
+                      class="wrapper"
+                    >
+                      <a
+                        href="/movie/453395"
+                      >
+                        <img
+                          alt="Doctor Strange in the Multiverse of Madness"
+                          class="poster"
+                          src="https://www.themoviedb.org/t/p/w220_and_h330_face//3dhQksZrIeRYP8jbB0J1SLW6HVW.jpg"
+                        />
+                      </a>
+                      <div
+                        class="option"
+                        data-testid="optional"
+                      >
+                        <span />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="consensus tight"
+                    >
+                      <div
+                        class="outer_ring"
+                      >
+                        <div
+                          class="user_score_chart"
+                          data-bar-color="#21d07a"
+                          data-percent="78.0"
+                          data-track-color="#204529"
+                        >
+                          <div
+                            class="percent"
+                          >
+                            <span
+                              class="icon"
+                              data-testid="score"
+                            >
+                              74
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h2>
+                      <a
+                        href="/movie/453395"
+                        title="Doctor Strange in the Multiverse of Madness"
+                      >
+                        Doctor Strange in the Multiverse of Madness
+                      </a>
+                    </h2>
+                    <p
+                      data-testid="release-date"
+                    >
+                      2022-06-10
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <div
+                class="btn-layout"
+              >
+                <button
+                  class="btn primary contained rd-1 w-100 "
+                  type="button"
+                >
+                  Load More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

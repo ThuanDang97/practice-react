@@ -21,10 +21,11 @@ const Select = (props: TProps): JSX.Element => {
   };
 
   const renderSortSubMenu = (
-    <div className="sub-menu">
+    <div className="sub-menu" data-testid="sub-menu">
       <ul className="sub-list">
         {sortingOptions.map((item) => (
           <li
+            data-testid="item"
             className="item"
             key={item.id}
             onClick={() => handleSetTitle(item.sort_by, item.title)}
@@ -38,8 +39,10 @@ const Select = (props: TProps): JSX.Element => {
 
   return (
     <>
-      <span className="dropdown" onClick={handlerOpenSubmenu}>
-        <span className="input">{titleOption}</span>
+      <span className="dropdown" onClick={handlerOpenSubmenu} data-testid="select">
+        <span className="input" data-testid="titleOption">
+          {titleOption}
+        </span>
         <span className="select">
           <span className="icon-select"></span>
         </span>

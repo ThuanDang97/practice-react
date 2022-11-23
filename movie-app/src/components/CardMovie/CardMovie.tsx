@@ -6,7 +6,7 @@ import ContentCard from './ContentCard/ContentCard';
 import ImageCard from './ImageCard/ImageCard';
 import Popup from '../Popup/Popup';
 
-type TProps = {
+export type TProps = {
   movie: IMovieCard;
   onUpdateStatus: (e: MouseEvent<HTMLDivElement>) => void;
 };
@@ -26,8 +26,8 @@ const CardMovie = (props: TProps): JSX.Element => {
 
   const renderActions = (value: boolean) => {
     return (
-      <div className="hover on" onClick={removeActions}>
-        <div className="option_content">
+      <div className="hover on" onClick={removeActions} data-testid="action">
+        <div className="option_content" data-testid="list-option">
           {optionsContent.map((option) => (
             <Popup
               key={option.id}

@@ -1,10 +1,10 @@
 import { IMovieCard } from './IMovieCard';
 
 export interface BelongsToCollection {
-  id: number;
-  name: string;
-  poster_path: string;
-  backdrop_path: string;
+  id?: number;
+  name?: string;
+  poster_path?: string;
+  backdrop_path?: string;
 }
 
 export interface Genre {
@@ -31,7 +31,7 @@ export interface SpokenLanguage {
 }
 
 export interface IMovieInfo extends IMovieCard {
-  belongs_to_collection: BelongsToCollection;
+  belongs_to_collection?: BelongsToCollection[];
   budget: number;
   genres: Genre[];
   homepage: string;

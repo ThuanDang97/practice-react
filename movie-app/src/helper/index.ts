@@ -3,7 +3,7 @@ import { IMovie } from '../interfaces/Movie/IMovie';
 import { IMovieCard } from '../interfaces/Movie/IMovieCard';
 import { IMovieInfo } from '../interfaces/Movie/IMovieInfo';
 
-type TResult = IMovieCard | IMovieInfo | IMovie;
+export type TResult = IMovieCard | IMovieInfo | IMovie;
 
 const transformedData = (result1: TResult[], result2: TResult[]) => {
   if (!result1 || !result2) {
@@ -24,11 +24,9 @@ const fetcher = async (url: string) => {
   const response = await fetch(url);
   const responseData = await response.json();
 
-  const error = new Error('Fail fetching data!!!');
   if (response.ok) {
     return responseData;
   }
-  throw error;
 };
 
 const fetcherAll = (...urls: string[]) => {
@@ -39,8 +37,7 @@ const fetchAPI = (url: string) => {
   const { data, error } = useSWR(url, fetcher);
 
   if (error) {
-    const errMsg = new Error('failed to load');
-    return errMsg;
+    return 'failed to load';
   }
   return data;
 };

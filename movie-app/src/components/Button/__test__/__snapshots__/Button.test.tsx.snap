@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button component Component Button matches DOM Snapshot 1`] = `
+<div>
+  <button
+    class="btn primary text rd-1 w-25 "
+    type="button"
+  >
+    Button
+  </button>
+</div>
+`;

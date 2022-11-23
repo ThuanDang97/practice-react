@@ -11,7 +11,12 @@ const NavItem = (props: TProps): JSX.Element => {
   return (
     <div className="dropdown-content">
       {itemNav.map((item) => (
-        <Link to={item.pathItem} key={item.idItem} className="nav-link">
+        <Link
+          to={item.pathItem}
+          key={item.idItem}
+          className="nav-link"
+          data-testid="navitem"
+        >
           <span>{item.titleItem}</span>
         </Link>
       ))}

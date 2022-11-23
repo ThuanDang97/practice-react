@@ -47,8 +47,10 @@ const updateFavorite = async (id: number, is_favorite: boolean) => {
 
   const data = await postData(UPDATE_FAVORITE_URL, body);
 
-  if (data.ok) {
-    return 'success';
+  console.log('data ' + data);
+
+  if (data) {
+    return data.ok;
   }
 };
 
@@ -101,24 +103,16 @@ const getNewMovie = async ({
 
   const movieFilter = await fetcherAll(url, generateFavoriteUrl(count));
 
-  if (movieFilter.length > 0) {
+  if (movieFilter?.length > 0) {
     const newMovie = transformedData(movieFilter[0].results, movieFilter[1].results);
     return newMovie;
   }
 };
 
 const getNewChip = (chips: IChip[], idGenres: number) => {
-  const getChip = chips.filter((chip) => {
-    if (chip.id === idGenres) {
-      return (chip.actived = !chip.actived);
-    }
+  return chips.map((chip) => {
+    return { ...chip, actived: chip.id === idGenres ? !chip.actived : chip.actived };
   });
-
-  const newChips: IChip[] = chips.map((chip) => {
-    return { ...chip, getChip };
-  });
-
-  return newChips;
 };
 
 export {

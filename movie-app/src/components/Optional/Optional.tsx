@@ -8,7 +8,7 @@ export type TProps = {
 const Optional = (props: TProps): JSX.Element => {
   const { id, onHandleClick } = props;
   return (
-    <div className="option" onClick={() => onHandleClick(id)}>
+    <div className="option" onClick={() => onHandleClick(id)} data-testid="optional">
       <span></span>
     </div>
   );

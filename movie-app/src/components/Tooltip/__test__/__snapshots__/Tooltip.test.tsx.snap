@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Tooltip component Component Tooltip matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="tooltip"
+    data-testid="tooltip"
+  >
+    <div>
+      <span>
+        Element
+      </span>
+    </div>
+    <span
+      class="tooltip-text"
+    >
+      Element
+    </span>
+  </div>
+</div>
+`;

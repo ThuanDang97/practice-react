@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Content Card component Component Image Card Movie matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="image"
+  >
+    <div
+      class="wrapper"
+    >
+      <a
+        href="/movie/1"
+      >
+        <img
+          alt="title"
+          class="poster"
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/url_path"
+        />
+      </a>
+      <div
+        class="option"
+        data-testid="optional"
+      >
+        <span />
+      </div>
+    </div>
+  </div>
+  ;
+</div>
+`;

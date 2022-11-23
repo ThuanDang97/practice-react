@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header component Component Header matches DOM Snapshot 1`] = `
+<div>
+  <header>
+    <a
+      href="/"
+    >
+      <h2
+        class="logo"
+      >
+        <img
+          alt=""
+          src="IMAGE_MOCK"
+        />
+      </h2>
+    </a>
+    <nav
+      data-testid="navbar"
+    >
+      <ul
+        class="dropdown-menu"
+      >
+        <li
+          class="dropdown-item"
+        >
+          <a
+            href="/"
+          >
+            <span>
+              Movies
+            </span>
+          </a>
+          <div
+            class="dropdown-content"
+          >
+            <a
+              class="nav-link"
+              data-testid="navitem"
+              href="/"
+            >
+              <span>
+                Popular
+              </span>
+            </a>
+            <a
+              class="nav-link"
+              data-testid="navitem"
+              href="/now-playing"
+            >
+              <span>
+                Now Playing
+              </span>
+            </a>
+            <a
+              class="nav-link"
+              data-testid="navitem"
+              href="/up-coming"
+            >
+              <span>
+                Upcoming
+              </span>
+            </a>
+            <a
+              class="nav-link"
+              data-testid="navitem"
+              href="/top-rated"
+            >
+              <span>
+                Top Rated
+              </span>
+            </a>
+          </div>
+        </li>
+        <li
+          class="dropdown-item"
+        >
+          <a
+            href="/favorite-movies"
+          >
+            <span>
+              Favorite Movies
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;

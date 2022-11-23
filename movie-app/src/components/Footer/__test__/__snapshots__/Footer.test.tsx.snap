@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Footer component Component Footer matches DOM Snapshot 1`] = `
+<div>
+  <footer>
+    <a
+      href="/"
+    >
+      <h2
+        class="logo_footer"
+      >
+        <img
+          alt=""
+          src="IMAGE_MOCK"
+        />
+      </h2>
+    </a>
+    <div
+      class="menu_footer"
+    >
+      <div
+        class="nav_footer"
+      >
+        <h3
+          class="nav_title"
+        >
+          THE BASICS
+        </h3>
+        <div
+          class="sub_nav"
+        >
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              About TMDB
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Contact Us
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Support Forums
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              API
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              System Status
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="nav_footer"
+      >
+        <h3
+          class="nav_title"
+        >
+          GET INVOLVED
+        </h3>
+        <div
+          class="sub_nav"
+        >
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Contribution Bible
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Add New Movie
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Add New TV Show
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="nav_footer"
+      >
+        <h3
+          class="nav_title"
+        >
+          COMMUNITY
+        </h3>
+        <div
+          class="sub_nav"
+        >
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Guidelines
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Discussions
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Leaderboard
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Twitter
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="nav_footer"
+      >
+        <h3
+          class="nav_title"
+        >
+          LEGAL
+        </h3>
+        <div
+          class="sub_nav"
+        >
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Terms of Use
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              API Terms of Use
+            </span>
+          </a>
+          <a
+            class="sub_nav_item"
+            href="/"
+          >
+            <span>
+              Privacy Policy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Single Movie Page Single Movie Page matches DOM Snapshot 1`] = `
+<BrowserRouter>
+  <SingleMoviePage />
+</BrowserRouter>
+`;

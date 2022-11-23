@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Ranger Slider component Component Ranger Slider matches DOM Snapshot 1`] = `
+<div>
+  <div
+    class="ranger-slider"
+  >
+    <h3>
+      Title
+    </h3>
+    <input
+      class="range"
+      max="10"
+      min="0"
+      step="1"
+      type="range"
+      value="10"
+    />
+    <div
+      class="range-value"
+    >
+      10
+    </div>
+  </div>
+</div>
+`;

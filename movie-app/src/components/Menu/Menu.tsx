@@ -15,7 +15,9 @@ const Menu = (props: TProps): JSX.Element => {
         <h2>{title}</h2>
       </div>
       <div className="filter">
-        <span className="widget">{children}</span>
+        <span className="widget" data-testid="sub-menu">
+          {children}
+        </span>
       </div>
     </div>
   );

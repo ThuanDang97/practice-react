@@ -3,7 +3,8 @@ import { Genre } from '../../../interfaces/Movie/IMovieInfo';
 import './contentMovie.css';
 import { InfoMovie } from './InfoMovie/InfoMovie';
 import noImage from '../../../assets/no-image.svg';
-type TProps = {
+
+export type TProps = {
   posterPath: string;
   homepage: string;
   title: string;
@@ -31,6 +32,7 @@ const ContentMovie = (props: TProps): JSX.Element => {
       <div className="inner">
         <div className="poster_movie">
           <img
+            data-testid="poster"
             src={
               posterPath
                 ? `https://www.themoviedb.org/t/p/w300_and_h450_bestv2${posterPath}`
@@ -53,4 +55,4 @@ const ContentMovie = (props: TProps): JSX.Element => {
   );
 };
 
-export default ContentMovie;
+export default memo(ContentMovie);

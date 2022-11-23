@@ -2,7 +2,7 @@ import { IMovieInfo } from '../../interfaces/Movie/IMovieInfo';
 import ContentMovie from './ContentMovie/ContentMovie';
 import './movie.css';
 
-type TProps = {
+export type TProps = {
   movie: IMovieInfo;
 };
 
@@ -13,20 +13,21 @@ const Movie = (props: TProps): JSX.Element => {
     <section className="movie">
       <div className="banner">
         <img
+          data-testid="banner"
           src={`https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces${movie?.backdrop_path}`}
           alt={movie?.original_title}
           className="banner_image"
         />
         <span className="layer"></span>
         <ContentMovie
-          posterPath={movie?.poster_path!}
-          homepage={movie?.homepage!}
-          title={movie?.title!}
-          releaseDate={movie?.release_date!}
-          genres={movie?.genres!}
-          runtime={movie?.runtime!}
-          overview={movie?.overview!}
-          scoreVoteAverage={movie?.vote_average!}
+          posterPath={movie?.poster_path}
+          homepage={movie?.homepage}
+          title={movie?.title}
+          releaseDate={movie?.release_date}
+          genres={movie?.genres}
+          runtime={movie?.runtime}
+          overview={movie?.overview}
+          scoreVoteAverage={movie?.vote_average}
         />
       </div>
     </section>
